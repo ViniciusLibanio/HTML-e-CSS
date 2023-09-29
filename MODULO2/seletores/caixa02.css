@@ -1,0 +1,99 @@
+* {
+    /*Confi. Global para o CSS, pega no site todo, em todos os elementos.*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+   }
+
+h1 {
+    text-align: center;
+    text-shadow: -3px -1px 7px rgba(0, 0, 0, 0.363);
+
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 1px;
+}
+
+header {
+    background-color: white;
+    margin: 0px;
+    padding: 0px 0px 1px 0px;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.397);
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 8px 9px 0px rgba(0, 0, 0, 0.363);
+    border-radius: 9px;
+    border: 2px solid rgb(110, 108, 108);
+    display: inline-block;
+    width: auto;
+    align-items: center;
+
+}
+
+section#assuntos {
+    display: block;
+   
+    width: 100%;
+    height: 100%;
+
+}
+
+article>aside {
+    font-weight: bold;
+    font-size: small;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: small;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

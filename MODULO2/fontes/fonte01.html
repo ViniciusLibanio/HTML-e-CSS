@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{ /*O font-family quando tem mais de uma parâmetro, ele tenta até achar uma das que consta na lista*/
+            font-family: Arial, Helvetica, sans-serif; /*Pesquisar no Gooogle: CSS web safe fonts combinations*/
+            font-weight: 900; /*lighter, normal, bold, bolder*/
+        }
+        /*
+        Medidas Absolutas
+        cm, mm, in (polegada), px, pt (ponto), pc (paica)
+        
+        
+        Medidas Relativas
+        em (ao tamanho padrão da fonte), ex (a altura X), rem, vw, vh, %
+        
+        usar 'em' e 'px', dar prioridade sempre pro EM, recomendação da W3C
+        16px geralmente = 1em
+        */
+
+        /*weight (peso), width (largura), height (algura)*/
+
+        h1 {
+            /*Shorthand font    
+                        - font-style ->         font-weight ->          font-size ->         font-family*/
+            font:           italic                 bold                   3em            arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Trabalho com Fontes</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, 
+        voluptatibus magnam voluptates dignissimos aperiam excepturi? Repellat laboriosam, 
+        quidem iusto corrupti animi odit mollitia! Id necessitatibus delectus voluptas quis dignissimos nam.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, 
+        voluptatibus magnam voluptates dignissimos aperiam excepturi? Repellat laboriosam, 
+        quidem iusto corrupti animi odit mollitia! Id necessitatibus delectus voluptas quis dignissimos nam.
+    </p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, 
+        voluptatibus magnam voluptates dignissimos aperiam excepturi? Repellat laboriosam, 
+        quidem iusto corrupti animi odit mollitia! Id necessitatibus delectus voluptas quis dignissimos nam.
+    </p>
+    
+    
+</body>
+</html>
