@@ -1,0 +1,7 @@
+body {
+    background-image: url('imagens/wallpaper003.jpg');
+    /*https://gustavoguanabara.github.io/html-css/imagens/mascote.png*/
+    height: 97vh;
+    background-repeat: no-repeat;
+    background-position:  200px; /*Pode usar PX ou center, right, left e bottom*/
+}
