@@ -1,0 +1,22 @@
+#container {
+    position: relative; /*todo posicionamento ja por padrão é relativo*/
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+}
+
+#conteudo {
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    position: absolute; /*o conteudo sempre absoluto para mexer no alinhamento*/
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+}
