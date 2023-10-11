@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Sacramento', cursive;
+}
 
 * {
     margin: 0px;
@@ -8,18 +15,21 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
     padding-top: 50px;
     /*text-transform: uppercase; -- todas as letras ficam maiúsculas, mas da um ar de 'grito'*/ 
     font-variant: small-caps; /* todas as letras ficam maíusculas, porém, as iniciais ficam maiores.*/
+    font-size: 5vw;
 }
 
 header > p {
@@ -39,8 +49,10 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 5vw;
 }
 
 section.normal {
@@ -54,7 +66,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(37, 36, 36, 0.712);
     
 }
