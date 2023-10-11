@@ -12,7 +12,8 @@
     padding: 0px;
 }
 
-html, body {
+html,
+body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
@@ -22,17 +23,18 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    
+
 }
 
-header > h1 {
+header>h1 {
     padding-top: 50px;
-    /*text-transform: uppercase; -- todas as letras ficam maiúsculas, mas da um ar de 'grito'*/ 
-    font-variant: small-caps; /* todas as letras ficam maíusculas, porém, as iniciais ficam maiores.*/
+    /*text-transform: uppercase; -- todas as letras ficam maiúsculas, mas da um ar de 'grito'*/
+    font-variant: small-caps;
+    /* todas as letras ficam maíusculas, porém, as iniciais ficam maiores.*/
     font-size: 5vw;
 }
 
-header > p {
+header>p {
     padding-bottom: 50px;
 }
 
@@ -42,7 +44,8 @@ a {
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
+header a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -61,15 +64,33 @@ section.normal {
 }
 
 section.imagem {
+    background-size: cover;
     background-color: rgb(61, 60, 60);
+    background-attachment: fixed;
+    background-position: right center;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(39, 39, 39, 0.747);
 }
 
-section.imagem > p {
+section.imagem>p {
     padding: 5px;
     display: inline-block;
-    background-color: rgba(37, 36, 36, 0.712);
+    background-color: rgba(37, 36, 36, 0.548);
+}
+
+section#img01 {
+    background-image: url(pacote-d012/imagens/background001.jpg);    
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img02 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
     
+
+}
+
+section>p {
+    padding-bottom: 2em;
 }
 
 footer {
