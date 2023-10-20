@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+    text-shadow: 4px 0.3px 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+tbody > tr:nth-child(odd) {/* parâmetros = odd - significa ímpar e 'even' significa par, também da pra fazer dessa forma.*/ /*2n significa que será intercalado de 2 em 2*/
+    background-color: rgb(177, 210, 238);
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead > tr > th {
+    background-color: grey;
+    position: sticky;
+    top: -1px;
+}
+
+thead, tfoot {
+    background-color: grey;
+    color: white;
+    
+}
+
+td.num {
+    text-align: right;
+}
