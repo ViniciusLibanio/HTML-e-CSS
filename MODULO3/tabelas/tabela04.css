@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 1.3px 1.3px 2.3px black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cNome {
+    background-color: antiquewhite;
+}
+
+.cGrupo {
+    background-color: aliceblue;
+}
+
+.cProfissao {
+    background-color: blueviolet;
+}
