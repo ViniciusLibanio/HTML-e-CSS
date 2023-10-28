@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iframe003.css">
+    <title>Uso de iframes</title>
+</head>
+<body>
+
+    <!--tem que ter um NAME="" no iframe para que seja possível a navegação, apontando o TARGET do link para o NAME do iframe.-->
+
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magnam quis nulla explicabo at possimus! Sint voluptatem illo quaerat ex, nam a maiores consectetur voluptates neque, qui, dolorum modi? Quasi.</p>
+
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="#">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid voluptate beatae rem quod praesentium asperiores dolorum pariatur optio, repudiandae odit quas quibusdam harum inventore, nam consequuntur est impedit iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, suscipit eveniet blanditiis dolor ullam nam quam debitis! Eligendi, minus facere? Laboriosam et sapiente earum ex, voluptatem reprehenderit architecto deserunt accusamus.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1> <p>Clique em algum link acima para carregar nessa janela o conteúdo.</p> <img src='imagens/cursoemvideo.png'>" frameborder="1" name="frame" id="tela">
+        <p>Infelizmente seu navegador não é compatível com esse recurso.</p>
+    </iframe>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, possimus officiis totam laboriosam unde quasi, voluptatibus et debitis sint itaque eum asperiores officia iste? Odio, velit! Voluptatibus minus blanditiis quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, quibusdam itaque ullam, incidunt amet maiores officia eos obcaecati aperiam natus inventore iusto quisquam nam dolorem, dignissimos nihil. Corporis, non recusandae.</p>
+</body>
+</html>
