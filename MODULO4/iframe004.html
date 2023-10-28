@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi corporis iste vel temporibus facere asperiores et tempora illum quo dolores commodi necessitatibus soluta exercitationem, consequuntur provident perferendis enim unde repellat?
+    </p>
+    <!--o atributo SANDBOX com o valor SANDBOX não deixa que envie nenhum tipo de dado./ quando o valor é allow-same-origin, permite coletar de páginas da mesma origem./ allow-forms permite formulários./ allow-scripts permite os scripts(que estão presentes nos formulários também.)-->
+    <iframe src="paginasextras/pagina003.html" frameborder="1" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        <!--quando o atributo REFERRERPOLICY recebe o valor NO-REFERRER ele diz para o site que não será coletado nenhum tipo de dado do usuário.-->
+        [Seu navegador não é compatível com esse recurso.]
+    </iframe>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, accusamus. Placeat optio aliquam sint suscipit nobis atque neque repellendus! Accusamus itaque accusantium quo nulla deleniti rerum obcaecati fugit neque soluta.
+    </p>
+</body>
+</html>
