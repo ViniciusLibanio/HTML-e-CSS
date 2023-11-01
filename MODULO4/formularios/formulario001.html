@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="off"> <!--isso desliga a sugestão de completar a caixa com o que já foi escrito-->
+        <p><label for="inome">Nome:</label> <input type="text" name="Nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <!--NÃO se faz um formulário sem relacionar o label com seu controle/elemento/id, isso dificulta os mecanismos de buscas a localizar esse formulário.-->
+
+
+        <!--Quando não é especificado o metodo, se é GET ou POST, o padrão é GET-->
+
+
+        <!--GET = quando seus dados não forem sensíveis, sigilosos.-->
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
