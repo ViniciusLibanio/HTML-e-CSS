@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <!--Quando se utilizado CHECKED dentro do input, ele já por padrão começa marcado, ao iniciar o site.-->
+            <input type="radio" name="sexo" id="isexom" checked> <label for="isexom">Masculino</label>
+            <input type="radio" name="sexo" id="isexof"> <label for="isexof">Feminino</label>
+            <!--Usar o mesmo NAME para ambos os INPUT do tipo RADIO para que se possa marcar apenas uma opção.-->
+        </fieldset>
+        
+        
+        
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol"> Futebol</label>
+            <label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete"> Basquete</label>
+            <label for="inatacao"><input type="checkbox" name="natacao" id="inatacao"> Natação</label>
+            <label for="itenis"><input type="checkbox" name="tenis" id="itenis"> Tênis</label>
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
