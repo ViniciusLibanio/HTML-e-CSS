@@ -4,90 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-body {
-    background: rgb(194, 192, 192);
-} 
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-header {
-    background-color: rgb(131, 129, 129);
-}
-
-header h1 {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-}
-
-menu {
-    display: none;
-}
-
-menu > ul > li a:hover{
-    background-color: rgb(97, 98, 99);
-}
-
-menu > ul > li > a{
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    border-top: 2px solid gray;
-    padding: 10px;
-    background-color: rgb(59, 58, 58);
-}
-
-main {
-    background-color: white;
-    margin: auto;
-    max-width: 750px;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 13px;
-    text-align: justify;
-}
-
-p {
-    font-size: 1em;
-    margin: 7px;
-    
-}
-
-article > h2 {
-    padding-bottom: 20px;
-}
-
-article > p {
-    text-align: justify;
-    margin-bottom: 10px;
-    text-indent: 20px;
-}
-
-#burguer {
-    background-color: rgb(27, 27, 27);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#burguer:hover {
-    background-color: white;
-    color: black;
-}
-    
-
-
-
-@media screen and (min-width: 501px) {   
+}    
 
     body {
         background: rgb(194, 192, 192);
@@ -108,23 +25,21 @@ article > p {
         padding-bottom: 20px;
     }
 
-    li {
-        padding: 10px;
-        display: inline;
-        background-color: rgb(59, 58, 58);
-    }
-
     menu {
+        display: none;
+    }
+
+    menu > ul > li a:hover{
+        background-color: rgb(97, 98, 99);
+    }
+
+    menu > ul > li > a{
         display: block;
-    }
-
-    menu > ul {
-        list-style-type: none;
-    }
-
-    ul {
-        margin-bottom: 20px;
-        padding-bottom: 9px;
+        text-decoration: none;
+        text-align: center;
+        border-top: 2px solid gray;
+        padding: 10px;
+        background-color: rgb(59, 58, 58);
     }
 
     main {
@@ -137,6 +52,12 @@ article > p {
         text-align: justify;
     }
 
+    p {
+        font-size: 1em;
+        margin: 7px;
+        
+    }
+
     article > h2 {
         padding-bottom: 20px;
     }
@@ -145,7 +66,18 @@ article > p {
         text-align: justify;
         margin-bottom: 10px;
         text-indent: 20px;
-        
     }
 
-}
+    #burguer {
+        background-color: rgb(27, 27, 27);
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer:hover {
+        background-color: white;
+        color: black;
+    }
