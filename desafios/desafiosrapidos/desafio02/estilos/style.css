@@ -27,11 +27,6 @@ a {
     font-weight: 900;
 }
 
-#capa {
-    margin-bottom: 0px;
-    padding: 0px;
-}
-
 #menu {
     display: flex;
     align-items: center;
@@ -44,6 +39,44 @@ li {
     margin-left: 10px;
 }
 
+li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 main {
     background-color: white;
+    width: 900px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 7px;
+    margin: 10px 5px;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#direitos {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.bordas {
+    border: 10px solid rgb(207, 201, 201);
+    margin-left: 10px;
+}
+
+.contato {
+    margin: 10px 22px -8px 10px;
 }
