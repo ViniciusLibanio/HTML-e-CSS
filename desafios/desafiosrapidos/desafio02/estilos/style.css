@@ -5,9 +5,11 @@
     padding: 0;
 }
 
+
 body {
     background-image: url("../imagens/fundo.png");
     font: 16px Arial, Helvetica, sans-serif;
+    
 }
 
 a {
@@ -16,7 +18,7 @@ a {
 }
 
 .container {
-    margin: 5px;
+    margin: auto;
     max-width: 900px;
 }
 
@@ -79,4 +81,8 @@ footer {
 
 .contato {
     margin: 10px 22px -8px 10px;
+}
+
+#capa img {
+    ;
 }
