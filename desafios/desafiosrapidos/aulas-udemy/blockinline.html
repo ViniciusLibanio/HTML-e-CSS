@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline, block e inline-block</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            border: 2px solid black;
+        }
+
+        .conteudo1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 5px;
+            display: inline;
+        }
+
+        .conteudo2 {
+            width: 200px;
+            height: 200px;
+            background-color: hotpink;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .conteudo3 {
+            width: 200px;
+            height: 200px;
+            background-color: silver;
+            display: block;
+            margin: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="conteudo1">conteúdo 1</div>
+        <div class="conteudo1">conteúdo 1</div>
+        <div class="conteudo1">conteúdo 1</div>
+    </div>
+
+    <div>
+        <div class="conteudo2">conteúdo 2</div>
+        <div class="conteudo2">conteúdo 2</div>
+        <div class="conteudo2">conteúdo 2</div>
+    </div>
+
+    <div>
+        <div class="conteudo3">conteúdo 3</div>
+        <div class="conteudo3">conteúdo 3</div>
+        <div class="conteudo3">conteúdo 3</div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi delectus fugit exercitationem excepturi voluptate. Porro alias ipsa delectus eos sit laboriosam dignissimos libero dolorum tempore molestias explicabo, optio asperiores?</p>
+
+
+</body>
+</html>
