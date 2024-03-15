@@ -1,0 +1,38 @@
+/*BARRA DE NAVEGAÇÃO VERTICAL*/
+
+/* ul {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)left bottom;
+    
+    text-indent: 40px; /*DA FORMATAÇÃO AO TEXTO, COMO UMA ESPÉCIE DE PADDING.*/
+
+    line-height: 40px; /* AUMENTA O TAMANHO DA LINHA QUE O TEXTO ESTÁ */
+}
+
+
+ul a:hover {
+    background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)right bottom;
+}
