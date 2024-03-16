@@ -25,7 +25,7 @@ ul a {
     display: block;
     color: #000;
     text-decoration: none;
-    background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)left bottom;
+    background: #f7b600 url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)left bottom;
     
     text-indent: 40px; /*DA FORMATAÇÃO AO TEXTO, COMO UMA ESPÉCIE DE PADDING.*/
 
@@ -35,4 +35,5 @@ ul a {
 
 ul a:hover {
     background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)right bottom;
+    color: #fff;
 }
