@@ -32,8 +32,17 @@ ul a {
     line-height: 40px; /* AUMENTA O TAMANHO DA LINHA QUE O TEXTO ESTÁ */
 }
 
+/*VAI APLICAR OS PARÂMETROS SEMPRE QUE UM LINK VIER DEPOIS DE UMA CLASS .selecionado*/
+a:hover/* , .selecionado a */ {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
 
-ul a:hover {
-    background: url(arquivosdasaulas/arquivos-necessarios-barra-navegacao-vertical/menu.png)right bottom;
+
+/*SELECIONA A PÁGINA QUE ESTÁ SENDO VISUALIZADA.*/
+#home #navegacao .home a, #sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
     color: #fff;
 }
