@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de navegação com abas.</title>
+    <link rel="stylesheet" href="navegacaocombarras.css">
+</head>
+<body id="home">
+    <h2>Home</h2>
+    <ul >
+        <li id="atual">
+            <a href="#" onclick="mudarAba(this)">Home</a>
+        </li>
+        <li>
+            <a href="#" onclick="mudarAba(this)">Sobre</a>
+        </li>
+        <li>
+            <a href="#" onclick="mudarAba(this)">Notícias</a>
+        </li>
+        <li>
+            <a href="#" onclick="mudarAba(this)">Serviços</a>
+        </li>
+        <li>
+            <a href="#" onclick="mudarAba(this)">Contato</a>
+        </li>
+    </ul>
+    
+    <script>
+        // Deixando marcada cada aba quando clicada, sem precisar criar outras páginas.
+        function mudarAba(elemento) {
+            // Remove o ID 'atual' do elemento atualmente selecionado
+            var abaAtual = document.getElementById('atual');
+            abaAtual.removeAttribute('id');
+            
+            // Adiciona o ID 'atual' ao novo elemento selecionado
+            elemento.parentElement.id = 'atual';
+        }
+
+        //FEITO COM AJUDA DO CHAT GPT, NÃO TINHA NA AULA...!
+    </script>
+
+</body>
+</html>
