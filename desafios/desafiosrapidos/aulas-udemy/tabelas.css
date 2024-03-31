@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse; /*ou a propriedade  separate*/
+}
+
+th, td {
+    padding: 7px;
+}
+
+.direita {
+    text-align: right;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em; /*espaçamento maior entre as letras.*/
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+legend {
+    font-size: 1.3em;
+    
+}
+
