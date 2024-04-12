@@ -1,0 +1,37 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input [type="text"] {/*Utilizando seletor de ATRIBUTO para formatar apenas os inputs do type text.*/
+/*navegadores mais antigos não possuem suporte para esse tipo de seletor, que é relativamente novo.*/
+    width: 20em;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+#mensagem {
+    max-width: 20em;
+    max-height: 10em;
+    min-width: 15em;
+    min-height: 5em;
+    box-shadow: 1px 1px 2px 1px #c1b7b7;
+}
