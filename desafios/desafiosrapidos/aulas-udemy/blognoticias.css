@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background: url(arquivosdasaulas/imagens-blognoticias/fundo.png) repeat-x left top;
+    background-size: contain;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.menu li {
+    font-size: 0.9em;
+    background-color: red;
+    padding: 10px;
+    background: rgb(170, 51, 51) url(arquivosdasaulas/imagens-blognoticias/divisor.png) no-repeat center left;
+}
+
+#sem-divisoria {
+    background-image: none;
+}
+
+.container-img {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+
+
+#mapa {
+    margin: auto 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: crimson;
+}
+
+/*---------------------------------------> MAIN */
+
+main {
+    max-width: 657px;
+    margin: auto;
+}
+
+
+#container-main-esquerdo {
+    margin: 10px;
+    background: url(arquivosdasaulas/imagens-blognoticias/fundo-caixa.png);
+    width: 180px;
+    padding: 3px 5px;
+    height: 310px;
+}
+
+#container-main-esquerdo h3 {
+    margin-bottom: 8px;
+
+}
+
+h3 {
+    background-color: rgb(49, 49, 127);
+    padding: 3px 5px;
+    color: white;
+}
+
+#menu-entrevista ul {
+    background-color: white;
+}
+
+#menu-entrevista li {
+    padding: 7px;
+}
