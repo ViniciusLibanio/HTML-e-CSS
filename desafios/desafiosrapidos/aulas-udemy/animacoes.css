@@ -1,0 +1,29 @@
+@keyframes animacao-caixa {
+    from {/*Estado inicial*/
+        background-color: red;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+    }
+
+    to {/*Estado final*/
+        background-color: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    position: relative;/*Definindo essa propriedade, podemos movimentar a caixa.*/
+    background-color: red;
+    animation-name: animacao-caixa;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;/*define quantas vezes será executada a animação.*/
+    animation-direction: alternate;/*Retorna a animação para o estado inicial, de forma animada.*/
+
+    /*animation: animacao-caixa 5s 3s 2 alternate; dessa forma é configurada a animação em apenas uma linha, na sequência que está acima descrito 1 em cada linha.*/
+}
