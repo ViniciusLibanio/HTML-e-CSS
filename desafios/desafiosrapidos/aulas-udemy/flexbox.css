@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+#conteudo {
+    background-color: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+
+    /*
+    row | row-reverse | column | column-reverse
+    */
+    flex-direction: row;
+
+    /*
+    nowrap | wrap | wrap-reverse 
+    */
+    flex-wrap: nowrap;
+
+    /*
+    flex-start | flex-end | center | space-between | space-around
+    */
+
+    justify-content: flex-start;
+
+    /*
+    stretch | center | flex-start | flex-end | baseline
+    */
+    align-items: stretch;
+
+}
+
+/*
+ Serve para ordenar o flex item dentro do container
+*/
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+
+    /*flex-basis indica o tamanho inicial do flex item antes da distribuição do espaço restante.*/
+    /*
+    flex-basis: 150px;
+    */
+}
+
+.flex-grow1 {
+    /*Flex-grow define o tanto que o item vai crescer.*/
+    flex-grow: 1;
+}
+
+.flex-grow2 {
+    /*Flex-shrink define o tanto que o item vai diminuir.*/
+    flex-grow: 2;
+}
+
+.flex-shrink1 {
+    flex-shrink: 2;
+}
+
+.flex-shrink2 {
+    flex-shrink: 5;
+}
