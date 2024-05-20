@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--shrink-to-fit=no, significa que não irá encolher o conteúdo para caber na tela. Por exemplo no caso de um carrossel, tem elementos que precisam ficar de fora da viewport (tela de exibição) para que dê o efeito esperado de carrossel de imagens.-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Cores e Background</title>
+    <style>
+
+       body {
+        margin-bottom: 200px;
+        padding: 20px;  
+        }
+
+        #teste {
+            display: flex;
+            place-content: center;
+            height: 200px;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        #teste2 {
+            width: 150px;
+            height: 150px;
+            place-items: center;
+            display: grid;
+            border-radius: 50%;
+            font-size: xx-large;
+            font-weight: 900;
+            text-shadow: 
+                -1px -1px 0 #fff,  
+                1px -1px 0 #fff,
+                -1px 1px 0 #fff,
+                1px 1px 0 #fff;
+        }
+
+        #teste2:hover {
+            color: white;
+            text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+        }
+
+
+    </style>
+  </head>
+  <body>
+
+   <!--
+    mt - margin top
+    mb - margin bottom
+    ml - margin left
+    mr - margin right
+    mx - margin no eixo x (horizontal) esquerda/direita
+    my - margin no eixo y (top/bottom)
+    m - margin em todos os lados
+    Valor deve ser de 0 a 5.
+   -->
+
+   <h1 class="bg-warning">Margin</h1>
+   <p class="bg-warning ml-2">Conteúdo principal</p>
+
+   <h1 class="bg-warning mx-3">Margin</h1>
+
+
+   <!--
+    pt - padding top
+    pb - padding bottom
+    pl - padding left
+    pr - padding right
+    px - padding no eixo x (horizontal) esquerda/direita
+    py - padding no eixo y (top/bottom)
+    p - padding em todos os lados
+    Valor deve ser de 0 a 5.
+   -->
+
+   <h1 class="bg-warning p-2">Padding</h1>
+   <p class="bg-warning pl-5">Conteúdo principal</p>
+   <h1 class="bg-warning py-5">Padding</h1>
+
+
+   <div id="teste" class="bg-info">
+    <div id="teste2" class="bg-primary">
+        teste
+    </div>
+    <div id="teste2" class="bg-primary">
+        teste
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
